@@ -9705,7 +9705,67 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
-
+/** 
+ * ===================================================================
+ * 12. resume - (Timeline header)
+ *
+ * ------------------------------------------------------------------- 
+ */
+ #resume .timeline-header1 {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+#resume .timeline-header1 h3 {
+	margin-bottom: 0;
+}
+#resume .timeline-header1 p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #888888;
+}
+@media only screen and (max-width:1024px) {
+	#resume .timeline-header1 {
+		padding-right: 50px;
+	}
+	#resume .timeline-header1 h3 {
+		font-size: 1.8rem;
+	}
+	#resume .timeline-header1 p {
+		font-size: 1.4rem;
+	}
+	#resume .timeline-content {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#resume .timeline-wrap::before {
+		left: 2.4rem;
+	}
+	#resume .timeline-ico {
+		left: 2.4rem;
+	}
+	#resume .timeline-header1 {
+		float: none;
+		width: auto;
+		padding-right: 15px;
+		text-align: left;
+	}
+	#resume .timeline-header1 h3 {
+		font-size: 2rem;
+	}
+	#resume .timeline-header1 p {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+  #resume .timeline-header1, #resume .timeline-content {
+		padding-left: 7rem;
+	}
+}
+#resume .timeline-header1, #resume .timeline-content {
+  padding-left: 5.5rem;
+}
 /** 
  * ===================================================================
  * 12. resume - (_layout.scss)
