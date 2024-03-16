@@ -9704,7 +9704,6 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-
 /** 
  * ===================================================================
  * 12. resume - (Timeline header)
@@ -9766,6 +9765,7 @@ textarea.form-control {
 #resume .timeline-header1, #resume .timeline-content {
   padding-left: 5.5rem;
 }
+
 /** 
  * ===================================================================
  * 12. resume - (_layout.scss)
