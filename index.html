@@ -71,7 +71,6 @@
 
 #typing-animation:before {
   content: "";
-  /* position: absolute; */
   top: 0;
   left: 0;
   width: 0;
@@ -160,8 +159,8 @@
 
 						// Create an array of typing text
 						const typingTexts = [
-						'Engineer  ',
-						'Certified Data Analyst  ',
+						'BI Developer  ',
+						'Data Analyst  ',
 						'Business Intelligence Expert   ',
 						'Cloud Technology Practitioner   ',
 						'Python Programmer   ',
@@ -173,7 +172,7 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 200);
 						}
 
 						// Once the animation is complete, reset the text and start over
@@ -190,9 +189,6 @@
 
 						<br>
 						<br>
-			           <!-- <h2>A Data Analyst</h2>-->
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 1 year of experience</h2> -->
-						<!-- <br> -->
 			            <p><a href="https://www.linkedin.com/in/omkardabholkar" target="_blank" class="btn btn-primary py-3 px-4">LinkedIn</a> 
 							<a href="https://github.com/omkardabholkar" target="_blank" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
 							<a href="https://public.tableau.com/app/profile/omkardabholkar/vizzes" target="_blank" class="btn btn-white btn-outline-white py-3 px-4">Tableau</a></p>
@@ -210,7 +206,6 @@
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
@@ -223,56 +218,49 @@
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
-										<p><span class="title-s">Full Name:	</span> <span style="color: #ffbd39;">Omkar Prashant Dabholkar</span></p>
-										<p><span class="title-s">Job Role:	</span> <span style="color: #ffbd39;">Data Analyst</span></p>
-										<p><span class="title-s">Experience:	</span> <span style="color: #ffbd39;">2 Years</span></p>
-										<!--<p><span class="title-s">Address:	</span> <span style="color: #ffbd39;">New York, USA</span></p>-->
+										<p><span class="title-s">Full Name: </span> <span style="color: #ffbd39;">Omkar Prashant Dabholkar</span></p>
+										<p><span class="title-s">Job Role: </span> <span style="color: #ffbd39;">BI Developer</span></p>
+										<p><span class="title-s">Experience: </span> <span style="color: #ffbd39;">3+ Years</span></p>
 									  </div>
 									</div>
 								  </div>
 
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
-									<span><i class="fas fa-database"></i> SQL</span> <span class="pull-right">95%</span>
+
+									<span><i class="fas fa-chart-bar"></i> Power BI / DAX</span> <span class="pull-right">95%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span><i class="fab fa-python"></i> PYTHON</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 
-									<span><i class="fas fa-chart-line"></i> Tableau</span> <span class="pull-right">95%</span>
+									<span><i class="fas fa-database"></i> SQL (T-SQL, MySQL)</span> <span class="pull-right">95%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-
-									<span><i class="fas fa-chart-pie"></i> Power BI</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-
-									<span><i class="fas fa-chart-bar"></i>  Data Visualization</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>									
-									
-									<span><i class="fas fa-chart-area"></i> Statistical Analysis</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 									
-									<span><i class="fas fa-brain">  </i><span>Machine Learning</span> <span class="pull-right">80%</span>
+									<span><i class="fab fa-python"></i> Python</span> <span class="pull-right">85%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span><i class="fas fa-chart-line"></i> Tableau</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span><i class="fas fa-cloud"></i> Microsoft Azure / AWS</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span><i class="fas fa-chart-area"></i> Data Modeling & ETL</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+									<span><i class="fas fa-brain"> </i> Machine Learning</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 								</div>
 							</div>
@@ -286,18 +274,16 @@
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
 								
-								<p>With over 2 years of comprehensive experience in the field of data science & analytics, accompanied by a master's degree in Information Systems. 
-									Proficient in data analysis, statistical analysis, hypothesis testing, Healthcare data analysis, customer behaviour analysis, &amp; machine learning. 
-									Demonstrated success in leading impactful projects and providing effective results.</p>
+								<p>Business Intelligence Developer with 3+ years of experience building enterprise analytics solutions. Expertise in Power BI, SSAS Tabular semantic models, DAX, Azure cloud architecture, and data engineering. Proven track record of transforming complex multi-million-row datasets into actionable dashboards for operations, finance, compliance, and supply chain teams.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Healthcare, Ecommerce, Media &amp; Digital Marketing</span></li>
+									<li class="d-flex"><span>Profile:</span> <span>Business Intelligence &amp; Data Analytics</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Rail Operations, Healthcare, Ecommerce, Higher Education</span></li>
 									<li class="d-flex"><span>Education:</span> <span>Master of Science in Information Systems</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi, Marathi</span></li>
-									<li class="d-flex"><span>BI Tools:</span> <span>Tableau, Microsoft Power BI &amp; Looker </span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel, Git, JIRA, Google Analytics,  data wrangling and cleaning, critical thinking, problem-solving, business acumen, communication skills, report writing, data mining, big data technologies (e.g., Hadoop, Spark), A/B testing, predictive modeling, familiarity with data management tools, understanding of data privacy laws and ethical considerations. &amp; SEO</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Power BI, SSAS Tabular, DAX, Azure Analysis Services, SSRS, Tableau, Looker</span></li>
+									<li class="d-flex"><span>Cloud & Data:</span> <span>Microsoft Azure (Blob Storage, CosmosDB, Analysis Services), AWS (S3, RDS), Microsoft Fabric, Snowflake, ETL Pipelines, Data Warehousing</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Git, Azure DevOps, Row-Level Security (RLS), PowerShell, Python, R, Google Analytics, A/B Testing, Predictive Modeling, Data Governance</span></li>
 									<li class="d-flex"><span>Interest:</span> <span>Travelling, Trekking</span></li>
-									
 								</ul>
 							</div>
 						</div>
@@ -327,7 +313,7 @@
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>Seasoned Data Analyst with 2 year of experience driving business strategies through data-driven insights. Proven expertise in data science, Data Engineering, statistical analysis, machine learning algorithms and project management.</p>
+            <p>Business Intelligence Developer with 3+ years of experience building enterprise analytics solutions across rail operations, higher education, and technology sectors. Expertise in Power BI, SSAS Tabular models, Azure cloud infrastructure, and data-driven decision making.</p>
           </div>
         </div>
 
@@ -337,103 +323,114 @@
 		</div>
 		<br>
 		
-		<!-- resume Section
-   ================================================== -->
-	<section id="resume" >
+	<section id="resume">
 		<div class="row resume-timeline">
 			<div class="col-twelve">
  
 				<div class="timeline-wrap">
-					
-					
+
+					<!-- NEW ROLE: Genesee & Wyoming -->
 					<div class="timeline-block">
- 
 						<div class="timeline-ico">
 							<i class="fa fa-briefcase"></i>
 						</div>
 						<div class="timeline-header">
-							<h3>Business Intelligence Analyst</h3>
-							<p>August 2023 - Present</p>
+							<h3>Business Intelligence Developer</h3>
+							<p>December 2024 – Present</p>
 						</div>
- 
 						<div class="timeline-content">
-							<h4>Syracuse University</h4>
-							<p style="color: #ffc107;">Syracuse University is a prestigious research institution offering diverse academic programs, fostering innovation, and supporting cutting-edge research and education.</p>
+							<h4>Genesee &amp; Wyoming Inc. — Rochester, NY</h4>
+							<p style="color: #ffc107;">A leading short line and regional railroad operator across North America and Europe.</p>
+							<ul style="color: #ccc; margin-top: 10px;">
+								<li>Developed enterprise SSAS Tabular semantic models in Azure-based analytics environments, integrating datasets from Azure Blob Storage, CosmosDB, and SQL Server to power Power BI dashboards across operations, compliance, finance, safety, and supply chain teams handling multi-million-row datasets.</li>
+								<li>Built Power BI dashboards from the ground up supporting rail operations and regulatory compliance, enabling teams to monitor railcar movements, locomotive activity, safety inspections, and employee certification KPIs.</li>
+								<li>Automated dataset refresh and fact table partition updates using PowerShell scripts, reducing manual reporting effort by 30%.</li>
+								<li>Implemented Row-Level Security (RLS) and managed Azure Active Directory access groups, enabling secure role-based distribution of analytics across business units.</li>
+								<li>Contributed to a compliance analytics initiative eliminating manual GM reporting processes, saving approximately $500K annually in regulatory penalties.</li>
+								<li>Supported Microsoft Fabric experimentation and Mirror JSON ingestion, enabling faster synchronization of production warehouse tables into enterprise BI semantic models.</li>
+							</ul>
 						</div>
 					</div>
-					<div class="timeline-block">
-						
-					</div>
-					<div class="timeline-block">
 
-					</div>
-				
+					<!-- Syracuse BI Research Analyst -->
 					<div class="timeline-block">
- 
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Business Intelligence Research Analyst</h3>
+							<p>June 2024 – November 2024</p>
+						</div>
+						<div class="timeline-content">
+							<h4>Syracuse University — Syracuse, NY</h4>
+							<p style="color: #ffc107;">A prestigious research institution offering diverse academic programs, fostering innovation and cutting-edge research.</p>
+							<ul style="color: #ccc; margin-top: 10px;">
+								<li>Designed Power BI dashboards and Azure Analysis Services tabular models using DAX, improving report performance by 30% and enabling leadership visibility into operational KPIs and forecasting metrics.</li>
+								<li>Architected SQL Server data models and automated ETL workflows supporting analytics across three university departments, reducing reporting turnaround time by 20%.</li>
+								<li>Led cross-departmental data migration to AWS RDS, improving data consistency across five administrative units and reducing reporting discrepancies by 10%.</li>
+								<li>Developed advanced DAX measures and self-service BI capabilities, collaborating with data science teams integrating Python-based predictive analytics to improve operational efficiency by 12%.</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Data Analyst at Permissionless -->
+					<div class="timeline-block">
 						<div class="timeline-ico">
 							<i class="fa fa-briefcase"></i>
 						</div>
 						<div class="timeline-header">
 							<h3>Data Analyst</h3>
-							<p>June 2021 - July 2022</p>
+							<p>June 2021 – July 2022</p>
 						</div>
-					
 						<div class="timeline-content">
 							<h4>Permissionless</h4>
-							<p style="color: #ffc107;">Permissionless is an innovator, pushing the boundaries of AI and blockchain to solve pressing global challenges and redefine the future of technology and society</p>
+							<p style="color: #ffc107;">An innovator pushing the boundaries of AI and blockchain to solve pressing global challenges.</p>
+							<ul style="color: #ccc; margin-top: 10px;">
+								<li>Formulated and maintained complex SQL queries for data extraction, transforming over 1TB of data into actionable insights and improving decision-making processes.</li>
+								<li>Spearheaded ETL process development using Python and SQL, ensuring efficient data extraction, transformation, and loading from multiple sources into a centralized repository.</li>
+								<li>Presented growth strategy recommendations through data analysis, improving sales forecast accuracy with predictive models.</li>
+							</ul>
 						</div>
 					</div>
 
+					<!-- Sparks Foundation -->
 					<div class="timeline-block">
-
-					</div>
-				
-
-					<div class="timeline-block">
- 
 						<div class="timeline-ico">
 							<i class="fa fa-briefcase"></i>
 						</div>
- 
- 
 						<div class="timeline-header">
-							<h3>Data Science & Business Analytics intern</h3>
-							<p>November 2020 - January 2021</p>
+							<h3>Data Science &amp; Business Analytics Intern</h3>
+							<p>November 2020 – January 2021</p>
 						</div>
- 
 						<div class="timeline-content">
 							<h4>The Sparks Foundation</h4>
-							<p style="color: #ffc107;">The Sparks Foundation is dedicated to achieving educational equality, offering scholarships, mentorship, and internships to empower students regardless of their financial background, and aiming to inspire, motivate, and help build a better society</p>
-							
+							<p style="color: #ffc107;">Dedicated to achieving educational equality through scholarships, mentorship, and internship programs.</p>
+							<ul style="color: #ccc; margin-top: 10px;">
+								<li>Conducted thorough data cleaning and preprocessing, ensuring data accuracy for high-quality analytical datasets.</li>
+								<li>Collaborated with cross-functional teams to deliver impactful, data-driven solutions and decision-making processes.</li>
+								<li>Performed migration and feature enhancements for a job-finder dashboard, involving data integration improvements.</li>
+							</ul>
 						</div>
 					</div>
-					<div class="timeline-block">
 
-					</div>			
-
-				
-				
+					<!-- Front End Developer -->
 					<div class="timeline-block">
- 
 						<div class="timeline-ico">
 							<i class="fa fa-briefcase"></i>
 						</div>
- 
- 
 						<div class="timeline-header">
 							<h3>Front End Developer</h3>
-							<p>August 2020 - January 2021</p>
+							<p>August 2020 – January 2021</p>
 						</div>
- 
 						<div class="timeline-content">
-							<h4>KAPRICE & CO</h4>
-							<p style="color: #ffc107;">Founded in India, during COVID-19, is a freelancing company dedicated to empowering small businesses with tailored website development solutions, fostering growth in challenging times</p>
-							
+							<h4>KAPRICE &amp; CO</h4>
+							<p style="color: #ffc107;">Founded in India during COVID-19, a freelancing company dedicated to empowering small businesses with tailored website development solutions.</p>
+							<ul style="color: #ccc; margin-top: 10px;">
+								<li>Engineered an immersive VR experience simulating physical gallery visits using advanced VR technologies.</li>
+								<li>Applied modern web technologies including HTML, CSS, JavaScript, and React frameworks to develop responsive, visually appealing web interfaces.</li>
+							</ul>
 						</div>
- 
-				
 					</div>
-				
  
 				</div> <!-- /timeline-wrap -->   			
  
@@ -441,116 +438,62 @@
 			
 		</div> <!-- /resume-timeline -->
 		
+	</section>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
 		
-	 </section> <!-- /features -->
- <!--
-		 <div class="row">
-				 <div class="col-md-6">
-					 <div class="resume-wrap ftco-animate">
-						 <span class="date">2021-2022</span>
-						 <h2>Data Analyst</h2>
-						 <span class="position">Permissionless</span>
-						 <p class="mt-4">Permissionless is an innovator, pushing the boundaries of AI and blockchain to solve pressing global challenges and redefine the future of technology and society. 
-							 <ul>
-								 <li>Formulated and maintained complex SQL queries in MySQL and SQL Server for data extraction, transforming over 1TB of data into actionable insights, improving decision-making processes.</li>
-								 <li>Spearheaded the development and optimization of ETL processes using Python and SQL, ensuring efficient data extraction, transformation, and loading from multiple sources into a centralized repository.</li>
-								 <li>Presented recommendations for growth strategies and finance optimization through data analysis, improving sales forecast accuracy with predictive models.</li>
-							 </ul>
-						 </p>
-					 </div>
- 
-				 </div>
- 
-				 <div class="col-md-6">
-					 <div class="resume-wrap ftco-animate">
-						 <span class="date">2020-2021</span>
-						 <h2>Data Science & Business Analytics intern</h2>
-						 <span class="position">The Sparks Foundation</span>
-						 <p class="mt-4">The Sparks Foundation is dedicated to achieving educational equality, offering scholarships, mentorship, and internships to empower students regardless of their financial background, and aiming to inspire, motivate, and help build a better society. 
-							 <ul>								
-								 <li>Conducted thorough data cleaning and preprocessing, ensuring data accuracy and high-quality dataset for analysis.</li>
-								 <li>Collaborated with cross-functional teams, leveraging analytical skills to deliver impactful solutions, and driving data-driven decision-making processes.</li>
-								 <li>Performed migration and enhancements for job finder dashboard, involved data integration and its feature improvement.</li>
-							 </ul>
-						 </p>
-					 </div>
-				 </div>
- 
-				 <div class="col-md-6">
-					 <div class="resume-wrap ftco-animate">
-						 <span class="date">2020-2021</span>
-						 <h2>Front End Designer</h2>
-						 <span class="position">KAPRICE & CO</span>
-						 <p class="mt-4">founded in Mumbai, India, by a dynamic duo during COVID-19, is a freelancing company dedicated to empowering small businesses with tailored website development solutions, fostering growth in challenging times. 
-							 <ul>								
-								 <li>Engineered an immersive VR experience, simulating physical gallery visits through advanced VR technologies to boost user engagement and satisfaction.</li>
-								 <li>Partnered with back-end developers for seamless data integration, ensuring peak platform performance and user experience.</li>
-								 <li>Applied modern web technologies, including HTML, CSS, JavaScript, and React frameworks, to develop responsive and visually appealing web interfaces.</li>
-							 </ul>
-						 </p>
-					 </div>
-				 
-				 </div>
- -->
-			
-		 <div class="row">
-			 <h1 class="big-4">Education</h1>
-			 <div class="underline"></div>
-		 </div>
-		 <br>
-		 
-			 <div class="row">
-				 <div class="col-md-6">
-					 <div class="resume-wrap ftco-animate">
-						 <span class="date">2022-2024</span>
-						 <h2>Master of Science in Information Systems</h2>
-						 <span class="position">Syracuse University, NY, USA</span>
-						 <p class="mt-4">Certificate of Advanced Study: Data Science<br>GPA: 3.96</p>
-						 <p><b>Relevant Courses:</b>
-							 <br>  ● IST 697 : Introduction to Data Science</br>
-								   ● IST 659 : Data admin concepts and Management</br>
-								   ● IST 614 : Information technology management and Policy</br>
-								   ● IST 621 : Information Management and Technology</br>
-								   ● MBC 638 : Data Analysis & Decision Making</br>
-								   ● IST 645 : Managing Info System Projects</br>
-								   ● IST 654 : Information System Analysis</br> 
-								   ● IST 625 : Enterprise Resource Management</br> 
-								   ● IST 719 : Visual Analytics Dashboard</br> 
-								   ● SCM 651 : Cloud Management</br> 
-  
-						 </p>
-					 </div>
-				 </div>
- 
-				 <div class="col-md-6">
-					 <div class="resume-wrap ftco-animate">
-						 <span class="date">2019-2022</span>
-						 <h2>Bachelor of Engineering in Computer Engineering</h2>
-						 <span class="position">Pune University, India</span>
-						 <p class="mt-4">Grade: First class distinction<br>GPA: 3.84</p>
-						 <p><b>Relevant Courses:</b>
-							 <br>● DISCRETE MATHEMATICS</br>
-							 ● Object Oriented Programming</br>
-							 ● Engineering Mathematics III</br>
-							 ● Advance Data Structures & Algorithms</br>
-							 ● Database Management Systems</br>
-							 ● Software Engineering & Poject Management.</br>
-							 ● Computer Networks</br>
-							 ● Data Analystics</br>
-							 ● Data Mining and Warehousing</br>
-							 ● Cloud Computing</br>
-						 </p>
- 
-					 </div>
-				 </div>
- 
-				 
-			 </div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2022-2024</span>
+						<h2>Master of Science in Information Systems</h2>
+						<span class="position">Syracuse University, NY, USA</span>
+						<p class="mt-4">Certificate of Advanced Study: Data Science<br>GPA: 3.91 / 4.0</p>
+						<p><b>Relevant Courses:</b>
+							<br>● Data Modeling &amp; Statistics</br>
+							   ● Data Visualization &amp; Visual Analytics Dashboard</br>
+							   ● Financial Analytics &amp; Decision Making</br>
+							   ● Information Technology Management &amp; Policy</br>
+							   ● Cloud Management</br>
+							   ● Managing Information System Projects</br>
+							   ● Enterprise Resource Management</br>
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019-2022</span>
+						<h2>Bachelor of Engineering in Computer Engineering</h2>
+						<span class="position">Pune University, India</span>
+						<p class="mt-4">Grade: First Class Distinction<br>GPA: 3.84</p>
+						<p><b>Relevant Courses:</b>
+							<br>● Database Management Systems</br>
+							● Data Analytics &amp; Data Mining</br>
+							● Advance Data Structures &amp; Algorithms</br>
+							● Cloud Computing</br>
+							● Software Engineering &amp; Project Management</br>
+							● Object Oriented Programming</br>
+							● Computer Networks</br>
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-12 mt-4">
+					<div class="resume-wrap ftco-animate">
+						<h2>Certifications &amp; Awards</h2>
+						<p><b>Certifications:</b> PwC Switzerland Power BI Job Simulation (Forage) &bull; Snowflake Data Warehousing Workshop &bull; Microsoft Office Specialist: Excel Associate &bull; Google Data Analytics Professional Certificate (Coursera)</p>
+						<p><b>Awards:</b> iSchool Values Award Scholarship &bull; 2nd Place – Brainwave Robotics Hackathon (TechNex '20)</p>
+					</div>
+				</div>
+				
+			</div>
 
     		<div class="row justify-content-center mt-5">
-    			<!--<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>-->
     		</div>
     	</div>
     </section>
@@ -563,18 +506,28 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on SQL, Python, Tableau & ML.</p>
+            <p>Data analytics and BI projects spanning Power BI, SQL, Python, Tableau, and Machine Learning.</p>
           </div>
         </div>
         <div class="row d-flex">
+          <!-- PwC Workforce Analytics - new project -->
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/omkardabholkar" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/omkardabholkar">PwC Workforce Analytics Dashboard</a></h3>
+                <p>Analyzed HR datasets using Python to identify a 15% increase in female promotions and a 20% reduction in male turnover. Built Power BI dashboards with advanced DAX measures, reducing report generation time by 25%.</p>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="https://github.com/omkardabholkar/Tableau-Chicago-Relocation-Guide/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
-
                 <h3 class="heading"><a href="https://github.com/omkardabholkar/Tableau-Chicago-Relocation-Guide/tree/main">Tableau Chicago Relocation Guide</a></h3>
-                <p>Developed a comprehensive Tableau relocation guide by integrating SQL and Python for data wrangling of Chicago's crime, jobs, housing, and transport datasets, culminating in an interactive dashboard that visually analyzes safety, affordability, career opportunities, and commute factors.</p>
+                <p>Led end-to-end SDLC processing of 5 datasets with Python and SQL, improving data quality by 10%. Designed Tableau dashboards tracking cost-of-living and quality-of-life KPIs, accelerating decision-making by 10%.</p>
               </div>
             </div>
           </div>
@@ -583,48 +536,23 @@
               <a href="https://github.com/omkardabholkar/Library-Management-Database-App" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/omkardabholkar/Library-Management-Database-App">Library Management Database App</a></h3>
-                <p>Developed a cloud-based Library Management Database App utilizing Azure Databricks and Storage, enhanced with a PowerApps interface, to streamline library operations, improve data security, and optimize user and data management workflows.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/omkardabholkar/Job-Market-Analysis-Power-BI-Dashboard-/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/omkardabholkar/Job-Market-Analysis-Power-BI-Dashboard-/tree/main">Job Market Analysis Power BI Dashboard</a></h3>
-                <p>Developed a dynamic Power BI dashboard leveraging SQL and Python to provide real-time, role-specific insights into the job market, enabling informed career decisions through data-driven analysis.</p>
+                <h3 class="heading"><a href="https://github.com/omkardabholkar/Library-Management-Database-App">Cloud-Based Library Management System</a></h3>
+                <p>Architected a cloud library solution using PowerApps and Azure, streamlining workflows by 20% and reducing errors by 15%, with role-based access control and data encryption.</p>
               </div>
             </div>
           </div>
         </div>
 	<br>
-		<!-- added justify-content-center to center align the last two projects -->
 		<div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-			<!--	<a href="https://github.com/omkardabholkar/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/omkardabholkar/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a></h3>
-				  <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/omkardabholkar/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/omkardabholkar/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a></h3>
-				  <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p>
-				</div> -->
-			  </div>
+              <a href="https://github.com/omkardabholkar/Job-Market-Analysis-Power-BI-Dashboard-/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/omkardabholkar/Job-Market-Analysis-Power-BI-Dashboard-/tree/main">Job Market Analysis Power BI Dashboard</a></h3>
+                <p>Developed a dynamic Power BI dashboard leveraging SQL and Python to provide real-time, role-specific insights into the job market, enabling informed career decisions through data-driven analysis.</p>
+              </div>
+            </div>
 			</div>
 		 </div>
 	  </div>
@@ -649,14 +577,6 @@
               </div>
             </div>
           </div>
-      <!--<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Mentored Students</span>
-              </div>
-            </div>
-          </div>     -->
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
@@ -669,17 +589,15 @@
       </div>
 	
 	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-			<!-- <div class="container"> -->
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
-						<br>
-						<p><a href="https://github.com/omkardabholkar" target="_blank" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>More projects on<span> Github  </span> </h2>
+					<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+					<br>
+					<p><a href="https://github.com/omkardabholkar" target="_blank" class="btn btn-primary py-3 px-5">GitHub</a></p>
 					</div>
 				</div>
-			<!-- </div> -->
+			</div>
 		</div>
 	</section>
 
@@ -702,7 +620,7 @@
 						<span class="icon-map-signs"></span>
 					</div>
 					<h3 class="mb-4">Address</h3>
-					<p>New York, USA</p>
+					<p>Rochester, New York, USA</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -711,7 +629,7 @@
 						<span class="icon-phone2"></span>
 					</div>
 					<h3 class="mb-4">Contact Number</h3>
-					<p><a href="tel://0101010101">+ 1 (315) 886 7167</a></p>
+					<p><a href="tel://13158867167">+ 1 (315) 886-7167</a></p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -720,7 +638,7 @@
 						<span class="icon-paper-plane"></span>
 					</div>
 					<h3 class="mb-4">Email Address</h3>
-					<p><a href="mailto:info@yoursite.com">opdabhol@syr.edu</a></p>
+					<p><a href="mailto:op.dabholkar@gmail.com">op.dabholkar@gmail.com</a></p>
 				</div>
 			</div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -760,9 +678,7 @@
 		  <div class="row">
 			<div class="col-md-12 text-center">
   
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> Omkar Dabholkar | All rights reserved.  </a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			  <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Omkar Dabholkar | All rights reserved.</p>
 			</div>
 		  </div>
 		</div>
